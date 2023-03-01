@@ -1,0 +1,62 @@
+.hot-trending-porducts__title-container {
+    border-bottom: 2px solid $product-btn-color;
+    max-width: 270px;
+    padding-bottom: 10px;
+
+    h2 {
+        text-align: left;
+    }
+}
+
+.hot-trending-porducts__card-container {
+    border-top: 1px solid #CFD3D2;
+    padding: 20px 3px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    max-width: 230px;
+    max-height: 410px;
+    padding: 20px;
+    background-color: $white;
+    border-radius: 1rem;
+
+    &__img {
+        max-width: 120px;
+    }
+
+    &__price {
+        text-align: left;
+    }
+}
+
+
+.product-card__star-icon-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.product-card__btn {
+    padding: 10px 50px;
+    border-radius: 2rem;
+    background-color: $product-btn-color;
+    color: $white;
+    border: none;
+    margin-top: 20px;
+}
+
+.star-icon-gold {
+    color: $gold;
+}
+
+.star-icon-gray {
+    color: $gray;
+}
+
+.star-icon-container_value {
+    color: $gray;
+}

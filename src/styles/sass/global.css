@@ -73,6 +73,10 @@ menu {
   margin: 0;
 }
 
+body {
+  background-color: #F3F5F6;
+}
+
 /*=============================================
 =            Components                       =
 =============================================*/
@@ -114,6 +118,65 @@ menu {
   border-radius: 2rem;
   background-color: transparent;
   cursor: pointer;
+}
+
+.hot-trending-porducts__title-container {
+  border-bottom: 2px solid #16BCDC;
+  max-width: 270px;
+  padding-bottom: 10px;
+}
+.hot-trending-porducts__title-container h2 {
+  text-align: left;
+}
+
+.hot-trending-porducts__card-container {
+  border-top: 1px solid #CFD3D2;
+  padding: 20px 3px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  max-width: 230px;
+  max-height: 410px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+.product-card__img {
+  max-width: 120px;
+}
+.product-card__price {
+  text-align: left;
+}
+
+.product-card__star-icon-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.product-card__btn {
+  padding: 10px 50px;
+  border-radius: 2rem;
+  background-color: #16BCDC;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+}
+
+.star-icon-gold {
+  color: #FFD700;
+}
+
+.star-icon-gray {
+  color: #808080;
+}
+
+.star-icon-container_value {
+  color: #808080;
 }
 
 /*=============================================
