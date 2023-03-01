@@ -1,0 +1,41 @@
+.banner-container {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 20px;
+    padding: 3px;
+}
+
+.banner-container__card-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+
+}
+
+.banner-container__banner-slider {
+    background-color: #A05DFF;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    padding-left: 115px;
+    // max-width: 860px;
+    max-height: 540px;
+    border-radius: 3%;
+    flex-grow: 1;
+}
+
+.banner-card {
+    background-color: #FF7D54;
+    padding: 70px;
+    max-width: 312px;
+    max-height: 260px;
+    border-radius: 6%;
+}
+
+.banner-slider__btn {
+    padding: 20px 70px;
+    margin-top: 80px;
+    border-radius: 2rem;
+    background-color: transparent;
+    cursor: pointer;
+}
