@@ -1,11 +1,5 @@
 .hot-trending-porducts__title-container {
-    border-bottom: 2px solid $product-btn-color;
-    max-width: 270px;
-    padding-bottom: 10px;
-
-    h2 {
-        text-align: left;
-    }
+    @include title-container;
 }
 
 .hot-trending-porducts__card-container {
@@ -23,12 +17,17 @@
     background-color: $white;
     border-radius: 1rem;
 
+    &__title {
+        color: $blue;
+    }
+
     &__img {
         max-width: 120px;
     }
 
     &__price {
         text-align: left;
+        margin-top: 10px;
     }
 }
 

@@ -1,0 +1,17 @@
+//To get any items in center position 
+@mixin get-item-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//used for any section container title
+@mixin title-container {
+    border-bottom: 2px solid $product-btn-color;
+    max-width: 270px;
+    padding-bottom: 10px;
+
+    h2 {
+        text-align: left;
+    }
+}
