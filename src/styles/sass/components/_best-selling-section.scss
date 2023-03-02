@@ -1,0 +1,17 @@
+.best-selling-products {
+    margin: 50px auto;
+}
+
+.best-selling-products__logo-container {
+    height: 77px;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin-top: 70px;
+
+    img {
+        max-width: 100px;
+    }
+}

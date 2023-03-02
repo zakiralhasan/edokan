@@ -1,7 +1,9 @@
 import React from 'react';
 import BannerSection from './BannerSection';
+import BestSellingSection from './BestSellingSection';
 import FlashDealSection from './FlashDealSection';
 import HotTrendingSection from './HotTrendingSection';
+import RecommendedSection from './RecommendedSection';
 import TopFeatureSection from './TopFeatureSection';
 
 const Home = () => {
@@ -15,6 +17,8 @@ const Home = () => {
                 <div className='home-page__add'>
                     <p>Free UK delivery - Return Over $100.00 (Excluding Homeware)| Free</p>
                 </div>
+                <RecommendedSection></RecommendedSection>
+                <BestSellingSection></BestSellingSection>
             </div>
         </div>
     );
