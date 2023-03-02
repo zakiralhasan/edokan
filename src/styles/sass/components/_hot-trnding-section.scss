@@ -1,3 +1,7 @@
+.hot-trending-porducts {
+    @include content-max-width;
+}
+
 .hot-trending-porducts__title-container {
     @include title-container;
 }

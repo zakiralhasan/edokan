@@ -1,4 +1,5 @@
 .banner-container {
+    @include content-max-width;
     margin-top: 40px;
     margin-bottom: 60px;
     display: flex;

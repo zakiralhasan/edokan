@@ -1,13 +1,14 @@
+.flash-deals {
+    @include content-max-width;
+}
+
 .flash-deals__title-container {
     @include title-container;
     margin-top: 50px;
 }
 
 .flash-deals__hero-card-container {
-    border-top: 1px solid #CFD3D2;
-    padding: 20px 3px;
-    display: flex;
-    gap: 20px;
+    @include card-container;
 }
 
 .hero-card {

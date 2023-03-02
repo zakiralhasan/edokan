@@ -1,0 +1,28 @@
+.top-feature {
+    @include content-max-width;
+}
+
+.top-feature__title-container {
+    @include title-container;
+    margin-top: 50px;
+}
+
+.top-feature__container {
+    @include card-container;
+}
+
+.top-feature__card-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.top-feature-card {
+
+    padding: 10px;
+
+    img {
+        max-width: 115px;
+
+    }
+}

@@ -1,5 +1,14 @@
-.home-page {
-    max-width: 1540px;
-    margin: 0 auto;
+.home-page__add {
+    width: 100%;
+    height: 60px;
+    background-color: #263C97;
+    @include get-item-center;
+    margin: 50px auto;
+
+    p {
+        color: $white;
+        font-size: $fs-large;
+
+    }
 
 }
