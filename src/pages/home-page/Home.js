@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../shared/footer/Footer';
 import BannerSection from './BannerSection';
 import BestSellingSection from './BestSellingSection';
 import FlashDealSection from './FlashDealSection';
@@ -19,6 +20,7 @@ const Home = () => {
                 </div>
                 <RecommendedSection></RecommendedSection>
                 <BestSellingSection></BestSellingSection>
+                <Footer></Footer>
             </div>
         </div>
     );
