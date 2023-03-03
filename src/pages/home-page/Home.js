@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../shared/nav-bar/Navbar';
-import Footer from '../shared/footer/Footer';
 import BannerSection from './BannerSection';
 import BestSellingSection from './BestSellingSection';
 import FlashDealSection from './FlashDealSection';

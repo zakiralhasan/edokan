@@ -617,4 +617,71 @@ body {
 .home-page__add p {
   color: #ffffff;
   font-size: 1.5rem;
+}
+
+.login-form-container {
+  max-width: 1540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container__content__top-section {
+  margin-top: 60px;
+}
+.login-form-container__content__top-section p {
+  color: #808080;
+}
+
+.login-form-container__content__bottom-section {
+  width: 625px;
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+}
+.login-form-container__content__bottom-section label {
+  display: block;
+  text-align: left;
+  margin-top: 30px;
+  color: black;
+}
+.login-form-container__content__bottom-section input {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #e4e6e7;
+  outline: none;
+}
+.login-form-container__content__bottom-section button {
+  background-color: #16BCDC;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 1rem;
+  margin: 30px auto;
+}
+
+.bottom-section__forgot-pass {
+  text-align: right;
+  margin-top: 30px;
+  color: #808080;
+}
+
+.bottom-section__create-account {
+  text-align: left;
+  color: #808080;
+}
+
+.bottom-section__create-account__link {
+  text-decoration: none;
+  color: #16BCDC;
+}
+
+.starlabel {
+  margin-left: 2px;
+  color: red;
 }/*# sourceMappingURL=global.css.map */

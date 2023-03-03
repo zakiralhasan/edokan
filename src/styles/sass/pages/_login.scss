@@ -1,0 +1,70 @@
+.login-form-container {
+    @include content-max-width;
+    @include get-item-center;
+}
+
+//login page top section
+.login-form-container__content__top-section {
+    margin-top: 60px;
+
+    p {
+        color: $gray;
+    }
+}
+
+//login page bottom section
+.login-form-container__content__bottom-section {
+    width: 625px;
+    background-color: $white;
+    margin: 30px auto;
+    padding: 20px;
+
+    label {
+        display: block;
+        text-align: left;
+        margin-top: 30px;
+        color: black;
+
+    }
+
+    input {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #e4e6e7;
+        outline: none;
+    }
+
+    button {
+        background-color: $product-btn-color;
+        color: $white;
+        @include clear-border;
+        width: 100%;
+        padding: 1rem;
+        margin: 30px auto;
+    }
+}
+
+.bottom-section__forgot-pass {
+    text-align: right;
+    margin-top: 30px;
+    color: $gray;
+}
+
+.bottom-section__create-account {
+    text-align: left;
+    color: $gray;
+}
+
+.bottom-section__create-account__link {
+    text-decoration: none;
+    color: $product-btn-color;
+}
+
+//used for red star label
+.starlabel {
+    margin-left: 2px;
+    color: red;
+}
