@@ -127,7 +127,7 @@ const Footer = () => {
                                 <img src={logo5} alt="" />
                             </div>
                         </div>
-                        <p>Copyright &copy EDOKAN. All rights reserved</p>
+                        <p>Copyright &copy; EDOKAN. All rights reserved</p>
                     </div>
                 </div>
             </div>

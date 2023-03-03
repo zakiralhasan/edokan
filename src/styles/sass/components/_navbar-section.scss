@@ -1,0 +1,135 @@
+.navbar-section {
+    background-color: #263C97;
+}
+
+.navbar-container {
+    @include content-max-width;
+    color: $white;
+}
+
+//navbar top section
+.navbar-container__top-section {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar-container__top-section__content {
+    display: flex;
+    gap: 20px;
+
+    select {
+        background-color: #263C97;
+        color: $white;
+        @include clear-border;
+    }
+}
+
+.navbar-container__top-section__menu-items {
+    ul {
+        display: flex;
+        gap: 40px;
+
+        li {
+            border-right: 1px solid $white;
+            padding-right: 10px
+        }
+    }
+}
+
+//navbar middle section
+.navbar-container__middle-section {
+    @include common-navbar-layout;
+    gap: 20px;
+    height: 140px;
+
+    h2 {
+        flex-grow: 1;
+        text-align: left
+    }
+}
+
+.middle-section__search-section-container {
+    @include get-item-center;
+    background-color: $white;
+    height: 60px;
+    flex-grow: 1;
+
+    select {
+        @include clear-border;
+        background-color: #E9E9ED;
+        height: 100%;
+        width: 50%;
+        padding-left: 10px;
+    }
+
+    input {
+        @include clear-border;
+        height: 100%;
+        width: 100%;
+        padding-left: 10px;
+    }
+}
+
+.middle-section__search-section-logo {
+    background-color: $product-btn-color;
+    padding: 10px;
+    font-size: 3rem;
+    margin: 5px
+}
+
+.navbar-container__middle-section__icons-container {
+    @include get-item-center;
+    gap: 20px
+}
+
+.middle-section__icon-container {
+    @include get-item-center;
+    gap: 10px;
+}
+
+.middle-section__icon {
+    font-size: 3rem
+}
+
+.middle-section__icon-content {
+    text-align: left;
+
+    span {
+        color: #A3AFEF;
+    }
+}
+
+
+
+
+
+//navbar bottom section
+.navbar-container__bottom-section {
+    @include common-navbar-layout;
+    gap: 60px;
+    height: 70px;
+}
+
+.bottom-section__category-container {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom-section__category-logo {
+    font-size: 2rem;
+    color: red;
+}
+
+.bottom-section__menu-items {
+    flex-grow: 1;
+
+    ul {
+        display: flex;
+        gap: 20px;
+    }
+}

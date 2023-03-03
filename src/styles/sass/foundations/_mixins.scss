@@ -29,3 +29,16 @@
     max-width: 1540px;
     margin: 0 auto;
 }
+
+//used for common navbar layout
+@mixin common-navbar-layout {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid $white;
+}
+
+//used for clear border and outline
+@mixin clear-border {
+    border: none;
+    outline: none;
+}
