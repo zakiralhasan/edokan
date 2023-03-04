@@ -34,7 +34,9 @@
 
         li {
             border-right: 1px solid $white;
-            padding-right: 10px
+            padding-right: 10px;
+            text-decoration: none;
+            color: $white;
         }
     }
 }
@@ -100,6 +102,11 @@
     span {
         color: #A3AFEF;
     }
+
+    a {
+        text-decoration: none;
+        color: #A3AFEF;
+    }
 }
 
 
@@ -131,5 +138,12 @@
     ul {
         display: flex;
         gap: 20px;
+    }
+
+    li {
+        a {
+            text-decoration: none;
+            color: $white;
+        }
     }
 }

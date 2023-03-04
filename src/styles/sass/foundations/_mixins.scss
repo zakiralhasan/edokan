@@ -42,3 +42,8 @@
     border: none;
     outline: none;
 }
+
+//used for link decoration 
+@mixin link-style {
+    text-decoration: none;
+}

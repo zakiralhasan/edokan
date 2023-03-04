@@ -1,0 +1,68 @@
+.register-form-container {
+    @include content-max-width;
+    @include get-item-center;
+}
+
+//register page top section
+.register-form-container__content__top-section {
+    margin-top: 60px;
+}
+
+
+
+
+
+//register page bottom section
+.register-form-container__content__bottom-section {
+    width: 625px;
+    background-color: $white;
+    margin: 30px auto;
+    padding: 20px;
+
+    label {
+        display: block;
+        text-align: left;
+        margin-top: 30px;
+        color: black;
+
+    }
+
+    input {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #e4e6e7;
+        outline: none;
+    }
+
+    button {
+        background-color: $product-btn-color;
+        color: $white;
+        @include clear-border;
+        width: 100%;
+        padding: 1rem;
+        margin: 30px auto;
+    }
+}
+
+.bottom-section__name-section-container {
+    display: flex;
+    gap: 5px;
+}
+
+.bottom-section__password-section-container {
+    display: flex;
+    gap: 5px;
+}
+
+.bottom-section__login-account {
+    text-align: left;
+    color: $gray;
+
+    a {
+        text-decoration: none;
+        color: $product-btn-color;
+    }
+}

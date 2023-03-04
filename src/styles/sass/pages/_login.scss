@@ -56,12 +56,13 @@
 .bottom-section__create-account {
     text-align: left;
     color: $gray;
+
+    a {
+        text-decoration: none;
+        color: $product-btn-color;
+    }
 }
 
-.bottom-section__create-account__link {
-    text-decoration: none;
-    color: $product-btn-color;
-}
 
 //used for red star label
 .starlabel {

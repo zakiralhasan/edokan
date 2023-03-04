@@ -358,6 +358,8 @@ body {
 .navbar-container__top-section__menu-items ul li {
   border-right: 1px solid #ffffff;
   padding-right: 10px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .navbar-container__middle-section {
@@ -427,6 +429,10 @@ body {
 .middle-section__icon-content span {
   color: #A3AFEF;
 }
+.middle-section__icon-content a {
+  text-decoration: none;
+  color: #A3AFEF;
+}
 
 .navbar-container__bottom-section {
   display: flex;
@@ -453,6 +459,10 @@ body {
 .bottom-section__menu-items ul {
   display: flex;
   gap: 20px;
+}
+.bottom-section__menu-items li a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .footer {
@@ -675,8 +685,7 @@ body {
   text-align: left;
   color: #808080;
 }
-
-.bottom-section__create-account__link {
+.bottom-section__create-account a {
   text-decoration: none;
   color: #16BCDC;
 }
@@ -684,4 +693,66 @@ body {
 .starlabel {
   margin-left: 2px;
   color: red;
+}
+
+.register-form-container {
+  max-width: 1540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form-container__content__top-section {
+  margin-top: 60px;
+}
+
+.register-form-container__content__bottom-section {
+  width: 625px;
+  background-color: #ffffff;
+  margin: 30px auto;
+  padding: 20px;
+}
+.register-form-container__content__bottom-section label {
+  display: block;
+  text-align: left;
+  margin-top: 30px;
+  color: black;
+}
+.register-form-container__content__bottom-section input {
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #e4e6e7;
+  outline: none;
+}
+.register-form-container__content__bottom-section button {
+  background-color: #16BCDC;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 1rem;
+  margin: 30px auto;
+}
+
+.bottom-section__name-section-container {
+  display: flex;
+  gap: 5px;
+}
+
+.bottom-section__password-section-container {
+  display: flex;
+  gap: 5px;
+}
+
+.bottom-section__login-account {
+  text-align: left;
+  color: #808080;
+}
+.bottom-section__login-account a {
+  text-decoration: none;
+  color: #16BCDC;
 }/*# sourceMappingURL=global.css.map */

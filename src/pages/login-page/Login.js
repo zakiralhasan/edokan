@@ -43,7 +43,7 @@ const Login = () => {
                         </div>
                         <p className='bottom-section__forgot-pass'>Forgot Your Password?</p>
                         <button>SIGN IN</button>
-                        <p className='bottom-section__create-account'>Don't have an account? <Link className='bottom-section__create-account__link' to="/register">Create an account</Link></p>
+                        <p className='bottom-section__create-account'>Don't have an account? <Link to="/register">Create an account</Link></p>
                     </div>
                 </div>
 
