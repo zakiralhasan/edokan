@@ -47,3 +47,17 @@
 @mixin link-style {
     text-decoration: none;
 }
+
+//used for shop page left section container decoration
+@mixin shop-page-left-section {
+    background-color: $white;
+    padding: 30px;
+    margin: 40px auto;
+}
+
+//used for shop page left section's color section content
+@mixin choos-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
