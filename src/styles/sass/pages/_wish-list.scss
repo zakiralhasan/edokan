@@ -1,0 +1,51 @@
+.wish-list-page {
+    @include content-max-width;
+
+    h2 {
+        margin: 40px auto;
+    }
+
+    table,
+    th,
+    td {
+        border: 1px solid #E0E4E9;
+        border-collapse: collapse;
+    }
+
+    table {
+        background-color: $white;
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    th {
+        padding: 30px;
+    }
+
+}
+
+.table-data {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 40px;
+    gap: 20px;
+
+    img {
+        width: 90px;
+    }
+
+    p {
+        color: $blue;
+    }
+}
+
+.cart-container {
+    @include get-item-center;
+    gap: 20px;
+
+    button {
+        background-color: $white;
+        @include clear-border;
+    }
+}

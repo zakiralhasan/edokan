@@ -77,6 +77,10 @@ body {
   background-color: #F3F5F6;
 }
 
+button {
+  cursor: pointer;
+}
+
 /*=============================================
 =            Components                       =
 =============================================*/
@@ -950,4 +954,52 @@ body {
   margin-top: 10px;
   margin-bottom: 40px;
   color: #808080;
+}
+
+.wish-list-page {
+  max-width: 1540px;
+  margin: 0 auto;
+}
+.wish-list-page h2 {
+  margin: 40px auto;
+}
+.wish-list-page table,
+.wish-list-page th,
+.wish-list-page td {
+  border: 1px solid #E0E4E9;
+  border-collapse: collapse;
+}
+.wish-list-page table {
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.wish-list-page th {
+  padding: 30px;
+}
+
+.table-data {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 40px;
+  gap: 20px;
+}
+.table-data img {
+  width: 90px;
+}
+.table-data p {
+  color: #3B83EE;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cart-container button {
+  background-color: #ffffff;
+  border: none;
+  outline: none;
 }/*# sourceMappingURL=global.css.map */
